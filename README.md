@@ -3,6 +3,8 @@ km-for-smart-quotes
 
 Two Keyboard Maestro macros: one to check the status of “Smart Quotes” and one to toggle it.
 
+(*Note:* I use the a “standard” US keyboard on Mac OS X. If you use any other keyboard layout, this will will probably not work without being adjusted for your keyboard. This document may not appear correctly if not viewed at UTF-8.)
+
 ### What Are “Smart Quotes”? ###
 
 Smart Quotes are what Mac OS X calls “typographer’s quotes” which are curled instead of the straight variants. “Smart” quotes are great, unless you’re writing HTML or some kind of programming code which _requires_ straight quotes.
