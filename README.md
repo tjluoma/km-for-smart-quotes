@@ -28,14 +28,13 @@ Since I’m toggling this on/off, I also need some way to check its current stat
 
 ### How to Use These Macros ###
 
-[Download the zip file from Github][] and import them into Keyboard Maestro by double clicking on the `.kmmacros` files.
+[Download the zip file from Github][4] and import them into Keyboard Maestro by double clicking on the `.kmmacros` files.
 
 By default, the shortcut for checking the status is <kbd>⌥</kbd>+<kbd>&#39;</kbd> and will show the current status using an OS X notification.
 
 The shortcut for toggling smart quotes\* is <kbd>⌃</kbd>+<kbd>⌥</kbd>+<kbd>⇧</kbd>+<kbd>⌘</kbd>+<kbd>&#39;</kbd> which will toggle them (turn them off if they’re on, or turn them on if they’re off) and show an OS X notification to let you know the new status.
 
-(\* That seem like a lot of keys, but <kbd>Caps Lock</kbd> equals  <kbd>⌃</kbd>+<kbd>⌥</kbd>+<kbd>⇧</kbd>+<kbd>⌘</kbd>  on my Mac, thanks to [Brett Terpstra’s “A useful Caps Lock key”](http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/), so for me I just press <kbd>Caps Lock</kbd>+<kbd>&#39;</kbd>. 
-I talked about this “Hyper Key” on [Mac Power Users episode 181][] if you’d like to hear more about it. Of course, you can easily change the shortcuts using Keyboard Maestro, you don’t have to use mine.)
+(\* That seem like a lot of keys, but <kbd>Caps Lock</kbd> equals  <kbd>⌃</kbd>+<kbd>⌥</kbd>+<kbd>⇧</kbd>+<kbd>⌘</kbd>  on my Mac, thanks to [Brett Terpstra’s “A useful Caps Lock key”][1], so for me I just press <kbd>Caps Lock</kbd>+<kbd>&#39;</kbd>. I talked about this “Hyper Key” on [Mac Power Users episode 181][5] if you’d like to hear more about it. Of course, you can easily change the shortcuts using Keyboard Maestro, you don’t have to use mine.)
 
 
 ### There Are a Few Provisos, a Couple of *Quid Pro Quos*. ###
@@ -44,7 +43,7 @@ This will only work in apps which use the standard OS X menu for Smart Quotes. O
 
 ### Bonus Tips and Tricks ###
 
-Some smart person on [Ask Different](http://apple.stackexchange.com/questions/40215/how-can-i-dynamically-choose-smart-or-non-smart-quotes) pointed out that on the U.S. standard keyboard layout:
+Some smart person on [Ask Different][2] pointed out that on the U.S. standard keyboard layout:
 
 * <kbd>Option</kbd> + <kbd>[</kbd>  = open printer’s quote: “ 
 
@@ -54,14 +53,20 @@ Some smart person on [Ask Different](http://apple.stackexchange.com/questions/40
 
 * <kbd>Shift</kbd> + <kbd>Option</kbd> + <kbd>]</kbd> = close printer’s apostrophe: ’ 
 
-If you want to muck about with keybindings, you can even [remap those keyboard shortcuts](http://www.danandcheryl.com/2010/08/how-to-type-curly-quotes-in-mac-os-x).
+If you want to muck about with keybindings, you can even [remap those keyboard shortcuts][3].
 
-
-[Mac Power Users episode 181]: http://www.macpowerusers.com/2014/03/09/mac-power-users-181-automation-workflows-with-tj-luoma/
+<!-- footnotes and reference links -->
 
 [Smart-Quotes-Toggle-On-Off.kmmacros]: Smart-Quotes-Toggle-On-Off.kmmacros
 
 [Smart-Quotes-Check-Status.kmmacros]: Smart-Quotes-Check-Status.kmmacros
 
-[Download the zip file from Github]: pathto.zip
+[1]: http://brettterpstra.com/2012/12/08/a-useful-caps-lock-key/
 
+[2]: http://apple.stackexchange.com/questions/40215/how-can-i-dynamically-choose-smart-or-non-smart-quotes
+
+[3]: http://www.danandcheryl.com/2010/08/how-to-type-curly-quotes-in-mac-os-x
+
+[4]: https://github.com/tjluoma/km-for-smart-quotes/archive/master.zip
+
+[5]: http://www.macpowerusers.com/2014/03/09/mac-power-users-181-automation-workflows-with-tj-luoma/
